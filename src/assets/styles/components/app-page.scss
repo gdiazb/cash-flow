@@ -1,0 +1,32 @@
+@import "../utils/variables";
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+.app {
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  overflow: hidden;
+}
+
+
+h1 {
+  color: $c-brand-green;
+  span {
+    color: $c-brand-blue;
+  }
+}
+
+button {
+  appearance: none;
+  border: none;
+  background-color: transparent;
+}

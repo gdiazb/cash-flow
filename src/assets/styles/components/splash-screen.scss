@@ -1,0 +1,11 @@
+.splash-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.splash-screen__title {
+  padding-top: 20px;
+}

@@ -1,0 +1,20 @@
+@import "../utils/variables.scss";
+
+.movements {
+  max-height: 100%;
+  padding: 0 8px;
+  margin-bottom: 14px;
+}
+.movements__title {
+  padding: 8px 16px 24px 16px;
+  color: $c-brand-blue;
+}
+
+.movements__list {
+  max-height: 68vh;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  overflow-y: scroll;
+  padding: 0;
+}

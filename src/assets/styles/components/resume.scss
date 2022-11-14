@@ -1,0 +1,33 @@
+@import "../utils/variables";
+
+.resume__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 75vh;
+  width: 100%;
+}
+
+.resume__title {
+  margin-top: 14px;
+  color: $c-brand-green;
+}
+
+.resume__graphic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 48px 24px;
+  box-sizing: border-box;
+}
+
+.graphic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 48px 24px;
+  box-sizing: border-box;
+}

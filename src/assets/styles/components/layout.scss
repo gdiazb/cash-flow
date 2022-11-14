@@ -1,0 +1,36 @@
+.movements {
+  z-index: 1;
+  position: absolute;
+  flex-direction: column;
+  bottom: 0;
+  width: 100vw;
+  background-color: white;
+  box-shadow: 0 -16px 16px #eaeaea;
+  border-radius: 24px;
+  bottom: 50px;
+}
+
+.movements__head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.movements__grip {
+  width: 120px;
+  height: 8px;
+  background-color: #f4f4f4;
+  border-radius: 4px;
+}
+
+.movements__main {
+  height: 75vh;
+  width: 100%;
+  transition: height 0.3s ease;
+  &.disabled {
+    height: 0;
+  }
+}
